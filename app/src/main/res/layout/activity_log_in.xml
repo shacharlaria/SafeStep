@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+        <TextView android:text="Log In" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="50sp" android:textStyle="bold" android:gravity="center"/>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:textSize="35sp" android:textStyle="bold" android:inputType="textEmailAddress" android:id="@+id/edtemail"/>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="PassWord" android:textSize="35sp" android:textStyle="bold" android:inputType="textPassword" android:id="@+id/edtpassword"/>
+        <Button android:text="submit" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="20sp" android:layout_marginTop="25sp" android:textColor="#978189" android:id="@+id/btnsubmitlogin"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
